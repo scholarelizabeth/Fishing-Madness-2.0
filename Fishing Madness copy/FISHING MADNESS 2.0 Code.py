@@ -14,7 +14,7 @@ fish_sounds = [pygame.mixer.Sound(s) for s in sound_files]
 
 current_channel = None
 
-pygame.mixer.music.load("3-19 Run, Jump, Throw! 1.mp3")
+pygame.mixer.music.load("64. Mii Maker Editing Mii (TV + Gamepad).mp3")
 pygame.mixer.music.set_volume(0.5)
 pygame.mixer.music.play(-1)
 
@@ -101,7 +101,7 @@ while running:
                     state = "Let's Fish"
                     bite_timer = ticks + random.randint(2000, 5000)
                     pygame.mixer.music.fadeout(1500) 
-                    pygame.mixer.music.load("3-19 Run, Jump, Throw! 1.mp3")
+                    pygame.mixer.music.load("64. Mii Maker Editing Mii (TV + Gamepad).mp3")
                     pygame.mixer.music.play(-1, fade_ms=1500)
 
         
